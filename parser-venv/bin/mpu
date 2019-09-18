@@ -1,0 +1,12 @@
+#!/Users/developer/PycharmProjects/pdfminer-parser/parser-venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'mpu==0.20.0','console_scripts','mpu'
+__requires__ = 'mpu==0.20.0'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('mpu==0.20.0', 'console_scripts', 'mpu')()
+    )
