@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86cba339-f493-45bb-ac15-8074e1cba93c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bank_authenticity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icici.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfc_wrong1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfc_wrong2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfc_wrong3.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_authenticity.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank_authenticity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/bank_configs.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/bank_configs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

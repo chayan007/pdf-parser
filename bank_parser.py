@@ -364,11 +364,14 @@ class Parser(BankDetector):
 
 
 if __name__ == '__main__':
-    detector_obj = BankDetector()
-    parser_obj = Parser(detector_obj)
-    txns = parser_obj.get_transaction_list('hdfc.pdf', detector_obj)
-    for txn in txns:
-        if txn is None:
-            continue
-        print(txn)
-    print(len(txns))
+    try:
+        detector_obj = BankDetector()
+        parser_obj = Parser(detector_obj)
+        txns = parser_obj.get_transaction_list('hdfc_wrong3.pdf', detector_obj)
+        for txn in txns:
+            if txn is None:
+                continue
+            print(txn)
+        print(len(txns))
+    except:
+        print('Fake PDFs')

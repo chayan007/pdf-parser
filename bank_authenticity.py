@@ -11,14 +11,21 @@ class BankAuthenticator:
         with open(address, 'rb') as f:
             pdf = PdfFileReader(f)
             if pdf.isEncrypted:
-                pdf.decrypt('')
-                info = pdf.getDocumentInfo()
+                pass
+            info = pdf.getDocumentInfo()
         return info
+
+    def check_if_password_protected(self, address):
+        with open(address, mode='rb') as f:
+            reader = PdfFileReader(f)
+        if reader.isEncrypted:
+            reader.decrypt('hoge1234')
+        self.get_info(address)
 
 
 if __name__ == '__main__':
     auth_obj = BankAuthenticator()
-    path = 'hdfc_longest.pdf'
+    path = 'hdfc.pdf'
     information = auth_obj.get_info(path)
     print('Author: {}'.format(information.author))
     print('Creator: {}'.format(information.creator))
