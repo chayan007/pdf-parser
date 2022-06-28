@@ -1,5 +1,5 @@
 appnope==0.1.0
-arrow==0.14.6
+arrow==0.15.1
 backcall==0.1.0
 chardet==3.0.4
 decorator==4.4.0
